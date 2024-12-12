@@ -1,0 +1,104 @@
+{
+	"name": "Thorin Stonecleave",
+	"race": "Mountain Dwarf",
+	"class": "Fighter",
+	"level": 5,
+	"background": "Soldier",
+	"alignment": "Lawful Neutral",
+	"stats": {
+		"strength": 18,
+		"dexterity": 12,
+		"constitution": 16,
+		"intelligence": 10,
+		"wisdom": 12,
+		"charisma": 8
+	},
+	"proficiency_bonus": 3,
+	"armor_class": 18,
+	"hit_points": 55,
+	"speed": 25,
+	"skills": {
+		"athletics": 7,
+		"intimidation": 2,
+		"perception": 3,
+		"survival": 3,
+		"stealth": 1,
+		"insight": 3,
+		"persuasion": 0,
+		"sleight_of_hand": 1,
+		"acrobatics": 1,
+		"deception": 0,
+		"investigation": 2,
+		"animal_handling": 3,
+		"arcana": 0,
+		"medicine": 1,
+		"nature": 2,
+		"performance": 0,
+		"history": 2,
+		"religion": 1
+	},
+	"saving_throws": {
+		"strength": 7,
+		"constitution": 6
+	},
+	"equipment": {
+		"weapons": [
+			{
+				"name": "Stonecleaver",
+				"type": "Melee Weapon",
+				"damage": "1d12 + 5",
+				"properties": ["Two-Handed"],
+				"description": "An ancient dwarven great axe passed down through Thorin's clan, etched with runes of protection and vengeance."
+			},
+			{
+				"name": "Hand Axe (x2)",
+				"type": "Melee or Thrown Weapon",
+				"damage": "1d6 + 4",
+				"properties": ["Light", "Thrown (20/60)"]
+			},
+			{
+				"name": "Battleaxe",
+				"type": "Melee Weapon",
+				"damage": "1d8 + 4 (1d10 + 4 if two-handed)",
+				"properties": ["Versatile"]
+			}
+		],
+		"armor": {
+			"name": "Chain Mail",
+			"armor_class": 16,
+			"type": "Heavy Armor"
+		},
+		"shield": {
+			"name": "Shield",
+			"armor_class": 2
+		},
+		"gear": ["Explorer's Pack", "Dwarven Amulet", "Potion of Healing (x2)"]
+	},
+	"features_and_traits": [
+		"Second Wind (1d10+5 HP once per rest)",
+		"Action Surge (use extra action once per short rest)",
+		"Extra Attack (attack twice per Attack action)",
+		"Fighting Style: Defense (+1 AC when wearing armor)",
+		"Indomitable (reroll failed saving throw once per long rest)",
+		"Dwarven Resilience (advantage on saving throws against poison, resistance to poison damage)"
+	],
+	"feats": ["Great Weapon Master (bonus attack on crit/kill, power attack for extra damage)"],
+	"languages": ["Common", "Dwarvish"],
+	"personality_traits": ["Gruff but loyal", "Hates orcs and goblins"],
+	"ideals": ["Honor: Respect earned through combat"],
+	"bonds": ["Sworn to defend his clan's legacy"],
+	"flaws": ["Quick to anger when his honor is questioned"],
+	"background_details": {
+		"origin": "Born in the ancient mountain fortress of Karak-Zur.",
+		"military_service": "Served in the Iron Guard, defending dwarven holds against orcish invasions."
+	},
+	"notes": {
+		"recent_exploits": "Recently helped reclaim a lost dwarven relic from a band of marauding giants.",
+		"reputation": "Respected as a fierce and unyielding warrior, though known for being stubborn."
+	},
+	"extras": {
+		"allies": ["Durin, an old battle companion"],
+		"enemies": ["Gorlak the Defiler, an orc warlord sworn to vengeance"],
+		"treasures": ["Dwarven Signet Ring", "Runestone of Ancestral Wisdom"]
+	}
+}
